@@ -1,14 +1,33 @@
+
 <form>
 <fieldset>
     
+
+
+<head>
+
+<h1>Happy Pizza Shop</h1>
+<h2>Welcome and bring your appetite.</h2>
+</head>
+
+
+<form>
+
+<fieldset>
+    
+    <body style="background-color: aquamarine;"></body>
+        
+    </body>
+
+
     <fieldset>
-        <label for="genre-select"> Pizza Crust choice? </label>
-        <select name="genre" id="genre-select">
+        <label for="pizza-crust-select"> Pizza Crust choice? </label>
+        <select name="crust type" id="crust-select">
           <option value="" disabled selected>--Please choose an option--</option>
-          <option value="action">Regular Crust</option>
-          <option value="adventure">Thin Crust</option>
-          <option value="comedy">Stuffed Crust </option>
-          <option value="documentary">Garlic Crust</option>
+          <option value="regular">Regular Crust</option>
+          <option value="thin crust">Thin Crust</option>
+          <option value="stuffed crust">Stuffed Crust </option>
+          <option value="garlic crust">Garlic Crust</option>
           
         </select>
       </fieldset>
@@ -110,12 +129,12 @@
       
                 <div class="col-50">
                   <h3>Payment</h3>
-                  <label for="fname">Accepted Cards</label>
-                  <div class="icon-container">
-                    <i class="fa fa-cc-visa" style="color:navy;"></i>
-                    <i class="fa fa-cc-amex" style="color:blue;"></i>
-                    <i class="fa fa-cc-mastercard" style="color:red;"></i>
-                    <i class="fa fa-cc-discover" style="color:orange;"></i>
+
+                 
+
+            <label for="fname">Accepted Cards: Visa Mastercard Discover Amex</label>
+                  
+
                   </div>
                   <label for="cname">Name on Card</label>
                   <input type="text" id="cname" name="cardname" placeholder="John More Doe">
